@@ -57,6 +57,21 @@ Font-style : The font-style property is used to make text italic:<br>
 
 font-weight : The font-weight property is used to make the text bold.You can also define the font weight with a number from 100 (thin) to 900 (thick). 400 is the same as normal, and 700 is the same as bold.<br>
 
+text-transform : allows you to transform text with the following values:<br>
+
+uppercase: Transforms the text to capitals.<br>
+
+lowercase: Transforms the text to lower case.<br>
+
+capitalize: Transforms all words to have the first letter capitalized.<br>
+
+.intro {<br>
+  text-transform: uppercase;
+}<br>
+
+
+
+
 
 
 
