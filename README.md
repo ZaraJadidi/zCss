@@ -38,7 +38,22 @@ in css file: li strong{..}<br>
 
 ### Styling Texts <br>
 
-color : change color of the text. Besides color names, a color value can also be set using hex and rgb values.Colors are displayed in combinations of red, green, and blue light (RGB).Hex values are written using the hashtag symbol (#), followed by six hex characters, which define the components:
+color : change color of the text. Besides color names, a color value can also be set using hex and rgb values.Colors are displayed in combinations of red, green, and blue light (RGB).Hex values are written using the hashtag symbol (#), followed by six hex characters, which define the components.<br>
+
+font-size : The font-size property is used to set the size of the text.It can take values using pixels (px). The em size unit is another way to set the size of the text.By default, 1em = 16px. <br>
+
+Font-family : You can change the font of the text using the font-family property.There are only a certain number of fonts that are generally available across all systems. These are called web safe fonts and include: Arial, Courier New, Georgia, Times New Roman, Trebuchet MS, Verdana.It's a common practice to define multiple fonts in the font-family property, so that if the first one is not available on for the user, the browser will try the next one like :<br>
+.intro {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}<br>
+
+If the browser does not support the font Arial, it tries the next font (Helvetica Neue, then Helvetica). If the browser doesn't have any of them, it will try the generic sans-serif.
+If the font name consists of multiple words, it has to be in quotes.<br>
+
+ 
+
+
+
 
 
 
