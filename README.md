@@ -1,4 +1,4 @@
-##What is CSS ?<br>
+## What is CSS ?<br>
 
 CSS allows you to define styles for web pages.It can be used to style text, change colors, font size, etc., as well as create layout - for example, create columns, sidebars, navigation menus, etc.<br>
 
@@ -13,11 +13,11 @@ An example rule could define all paragraphs to be red and large.<br>
 
 There are a number of ways we can apply CSS rules to our elements.
 
-###Inline:<br>
+### Inline:<br>
 
 The first way is to define the style declarations right on the element we target, using the style attribute.We can have multiple declarations in the style rule.The declarations are separated using a semicolon.<br>
 
-###Outline:<br>
+### Outline:<br>
 
 It is common practice to define the CSS rules in a separate document and link it with the HTML.
 
