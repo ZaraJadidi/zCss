@@ -24,7 +24,9 @@ It is common practice to define the CSS rules in a separate document and link it
 CSS allows you to target elements using selectors, which allows you to target specific elements and apply the same style to them.
 The style rules are defined in a CSS file using selectors.<br>
 
-### Selectors: u can use the target element with {} in css file.Each style declaration in a rule ends with a semicolon.  We can target multiple selectors at once, by separating the selectors with a comma.<br>
+### Selectors<br>
+
+u can use the target element with {} in css file.Each style declaration in a rule ends with a semicolon.  We can target multiple selectors at once, by separating the selectors with a comma.<br>
 
 ##### Class Selectors: Often we need to target only a subset of elements, without changing the others. This can be done using a class selector.We first need to add a class attribute to the elements we want to target. 
 the class selector needs to start with a dot, followed by the class name that we gave to our element.<br>
