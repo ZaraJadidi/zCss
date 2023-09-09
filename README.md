@@ -34,7 +34,14 @@ the class selector needs to start with a dot, followed by the class name that we
 ##### Id: We can also create selectors based on the id attribute of elements.This is done by using the hash (#) symbol before the id value.You can have only one element with the same id on the page, while the class value can be used multiple times.<br>
 
 ##### Besed on location: We can also target elements based on their location.For example, there are two strong elements, one inside a paragraph and the other inside a list item.We can target only the one inside the list item by using the following rule:
-in css file: li strong{..}
+in css file: li strong{..}<br>
+
+### Styling Texts <br>
+
+color : change color of the text. Besides color names, a color value can also be set using hex and rgb values.Colors are displayed in combinations of red, green, and blue light (RGB).Hex values are written using the hashtag symbol (#), followed by six hex characters, which define the components:
+
+
+
 
 
 
