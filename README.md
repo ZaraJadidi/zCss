@@ -50,6 +50,19 @@ Font-family : You can change the font of the text using the font-family property
 If the browser does not support the font Arial, it tries the next font (Helvetica Neue, then Helvetica). If the browser doesn't have any of them, it will try the generic sans-serif.
 If the font name consists of multiple words, it has to be in quotes.<br>
 
+Font-style : The font-style property is used to make text italic:<br>
+.intro {
+  font-style: italic;
+}<br>
+
+font-weight : The font-weight property is used to make the text bold.You can also define the font weight with a number from 100 (thin) to 900 (thick). 400 is the same as normal, and 700 is the same as bold.<br>
+
+
+
+
+
+
+
  
 
 
