@@ -69,6 +69,25 @@ capitalize: Transforms all words to have the first letter capitalized.<br>
   text-transform: uppercase;
 }<br>
 
+text-decoration : supports the following values: <br>
+
+none: removes any decoration.<br>
+
+underline: underlines the text.<br>
+
+overline: gives the text an overline.<br>
+
+line-through: puts a strikethrough over the text.<br>
+
+.intro {<br>
+  text-decoration: underline;
+}<br>
+.outro {<br>
+  text-decoration: line-through;
+}<br>
+
+
+
 
 
 
