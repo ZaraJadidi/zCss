@@ -294,28 +294,45 @@ a:hover {
 
  By default, all links are underlined.We can remove the underline using the text-decoration property.
 
-##
-```
+                                       
+                                       
+## Styling Tables <br>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Amy</td>
-    <td>42</td>
-  </tr>
-  <tr>
-    <td>Bob</td>
-    <td>19</td>
-  </tr>
-</table>
-```
+An HTML table doesn't look appealing by default.
+
+border-collapse : <br>
+
+The table cells have spacing between them by default, making double borders appear. The border-collapse property sets the borders to collapse into one, making the table look a lot better.
+
+border-collapse: collapse
+
+We can also provide some padding to the cells, to give the content some space to "breathe"
 
 
+nth-child() : 
 
-                                           
+allows you to select specific rows and style them.
+
+
+tr:nth-child(3) {
+
+
+    background-color: #b0d1e4;
+
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+                                       
 
 
 
