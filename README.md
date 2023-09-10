@@ -1,4 +1,4 @@
-## What is CSS ?<br>
+# What is CSS ?<br>
 
 CSS allows you to define styles for web pages.It can be used to style text, change colors, font size, etc., as well as create layout - for example, create columns, sidebars, navigation menus, etc.<br>
 
@@ -95,6 +95,77 @@ line-through: puts a strikethrough over the text.<br>
 .outro {<br>
   text-decoration: line-through;
 }<br>
+
+#### text-shadow :<br>
+allows you to set a shadow for the text.<br>
+h1 {<br>
+
+  text-shadow: 3px 2px 3px red;
+} <br>
+The first value is the horizontal offset of the shadow.<br>
+
+The second value - the vertical offset.<br>
+
+The third value is the blur radius: a higher value means the shadow is dispersed more widely.<br>
+
+The last one is the color of the shadow.<br>
+
+You can add multiple shadows, by separating them with a comma.<br>
+
+#### Text Alignment :<br>
+
+The text-align property is used to control how text is aligned within its container. The supported values are: left, right, center, justify.
+
+#### Line Height : <br>
+sets the height of each line of text.The recommended line height is 1.5 - 2 (double spaced.).__>> The line-height value 2 indicates that its double the height of the font .  <br>
+
+#### Letter & Word Spacing : <br>
+
+The letter-spacing and word-spacing properties allow you to set the spacing between letters and words in your text. <br>
+
+
+## Box_Model <br>
+
+HTML elements appear as boxes. The box model defines how the different parts of the box -  margin, border, padding, and content, work together to create the box.The content box is the area where the content is displayed.<br>
+
+The padding box is the white space around the content.<br>
+
+The border box comes after the padding.<br>
+
+The margin box is the last one and defines the space between this box and other elements.<br>
+
+The Standard Box Model : In the standard box model, the height and width attributes define the size of the content box.
+
+Any padding and border is then added to that width and height to get the total size of the box.
+
+For example, the total width of the box with paddings will be the sum of width plus padding left and padding right.The margin is not counted towards the actual size of the box, it is the space outside the box.
+
+### Margin :<br>
+The margin is the space around your box.
+
+We can control all margins of an element at once using the margin property, in the following order: top, right, bottom, and left.<br>
+
+
+The margins can be provided using separate properties.__>> margin_top,margin_right,margin_bottom,margin_left
+
+### Padding :<br>
+The padding is the area between the border and the content. It is defined similar to the margin.
+
+
+### BOX_SIZE <br>
+
+Similar to using HTML attributes, the width and height can be given using CSS, with the width and height properties.They can take both pixel and percentage values. <br>
+
+ 
+
+
+
+
+
+
+
+
+
 
 
 
