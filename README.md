@@ -280,6 +280,14 @@ a:hover - a link is hovered when the mouse is over it.
 
 These are called pseudo selectors.
 
+a:hover {
+
+
+  background-color: yellow;
+
+  
+}
+
 
 
 
