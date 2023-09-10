@@ -223,6 +223,22 @@ repeat-x: repeat horizontally.
 repeat-y: repeat vertically.
 
 repeat: repeat in both directions (default value).<br>
+<br>
+background-position: <br>
+<br>
+This property sets the position in which the background image appears. It uses a coordinate system in which the top-left corner of the box is at position (0,0).As its value, it can take both pixel/percentage units and keywords (top, left, right, bottom, center).The default background-position value is (0,0): the top-left corner.<br>
+<br>
+
+background-size : <br>
+<br>
+The background-size property allows you to define how the image should fit inside the box.
+
+It has two possible values:
+
+cover: The image will completely cover the box, while maintaining its aspect ratio. 
+
+contain: The image will fit inside the box completely.
+
 
 
 
