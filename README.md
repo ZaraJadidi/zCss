@@ -239,7 +239,7 @@ contain: The image will fit inside the box completely.
 
 <br>
 
-###Styling Lists 
+### Styling Lists 
 
 <br>
 
