@@ -200,6 +200,7 @@ The border-radius property allows you to round the corners of elements.A single 
  Background-color :<br>
  <br>
  This property sets the background color for an element.You can set the color using color names, hex values and rgb.<br>
+ <br>
 
 Background Image : <br>
 <br>
