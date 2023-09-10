@@ -321,6 +321,51 @@ tr:nth-child(3) {
 ```
 <br>
 
+The nth-child selector allows you to also define rules for the rows, instead of providing the number.
+
+For example, we can style the odd and even rows separately, giving them different background colors:
+
+```
+tr:nth-child(even) {
+  background-color: #b0d1e4;
+}
+tr:nth-child(odd) {
+  background-color: #6aabd1;
+}
+```
+<br>
+
+### Styling Forms <br>
+<br>
+We can add styling to the text fields and labels by selecting them using their name.
+
+We can target the input elements by their type using the following syntax:
+
+```
+input[type='text'] {
+  border: 1px solid green;
+  width: 100%;
+  padding: 5px;
+}
+```
+<br>
+We can also style the text inside the text fields, just like any other text.Just like link states, we can use the :hover pseudo selector to style the button, when it is hovered:
+
+```
+input[type='button']:hover {
+  background-color: gray;
+}
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
