@@ -288,8 +288,30 @@ a:hover {
   
 }
 
+ text-decoration :
 
 
+
+ By default, all links are underlined.We can remove the underline using the text-decoration property.
+
+##
+```
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Amy</td>
+    <td>42</td>
+  </tr>
+  <tr>
+    <td>Bob</td>
+    <td>19</td>
+  </tr>
+</table>
+```
 
 
 
