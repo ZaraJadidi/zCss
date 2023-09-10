@@ -171,6 +171,10 @@ p {<br>
   box-sizing: border-box;<br>
   border: 3px solid black;<br>
 }<br>
+Now, the paragraph box has the width 200px, irrespective of the padding and border widths.Without the box-sizing property it would have the width: 200+7+3+7+3 = 220px.<br>
+
+
+
 
 
 
