@@ -231,9 +231,7 @@ This property sets the position in which the background image appears. It uses a
 
 background-size : <br>
 <br>
-The background-size property allows you to define how the image should fit inside the box.
-
-It has two possible values:
+The background-size property allows you to define how the image should fit inside the box.It has two possible values:
 
 cover: The image will completely cover the box, while maintaining its aspect ratio. 
 
