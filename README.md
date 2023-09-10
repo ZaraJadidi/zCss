@@ -183,7 +183,59 @@ The property takes 3 values:
 
 - the border style,
 
-- the border color.
+- the border color.<br>
+If not defined, the border is not visible.<br>
+
+Border Styles :<br>
+The border style can take one of the following values:<br>
+
+dotted, dashed, solid, double, groove, ridge, inset, outset.<br>
+Similar to paddings and margins, the border supports separate properties to set the border for each side, e.g.: border-top, border-bottom, etc.Each side of the border can have its own style.<br>
+
+#### Border Radius <br>
+The border-radius property allows you to round the corners of elements.A single value provided uses that value for all 4 corners. You can also set the border radius for each corner separately, by separating them with spaces.The radius applies to the whole element, even if it has no border set.
+
+### Background <br>
+ Background-color :<br>
+ This property sets the background color for an element.You can set the color using color names, hex values and rgb.<br>
+
+Background Image : <br>
+You can also set an image as the background of an element, using the background-image property.It has the following syntax:<br>
+.box {<br>
+  background-image: url('sl-logo.png');<br>
+  height:150px;<br>
+  padding: 10px;<br>
+}<br>
+The image address has to be put in quotes and enclosed by the url() attribute.A small image is, by default, tiled to fill the box.In case the image is larger than the element, it is not scaled down by default and we will see only the part that fits in the box.<br>
+
+background-repeat : <br>
+This  property can control how the image is tiled (or repeated) in the box.It can take the following values:
+
+no-repeat: does not tile the image.
+
+repeat-x: repeat horizontally.
+
+repeat-y: repeat vertically.
+
+repeat: repeat in both directions (default value).<br>
+
+
+
+
+
+                                           
+
+
+
+
+
+
+
+
+  
+
+
+  
 
 
 
