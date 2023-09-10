@@ -156,6 +156,24 @@ The padding is the area between the border and the content. It is defined simila
 
 Similar to using HTML attributes, the width and height can be given using CSS, with the width and height properties.They can take both pixel and percentage values. <br>
 
+Similar to the width, we can also define the height of the elements.<br>
+
+Alternative Box Model :<br>
+It can be inconvenient to calculate the actual size of the box, because of the padding and border widths being added to it.
+
+For this reason, CSS provides an alternative box model where the given width is taken by the box and includes the padding and border.
+
+The model is turned on using box-sizing: border-box:<br>
+p {<br>
+  margin: 5px 10px 5px 10px;<br>
+  padding: 4px 7px 4px 7px;<br>
+  width: 200px;<br>
+  box-sizing: border-box;<br>
+  border: 3px solid black;<br>
+}<br>
+
+
+
  
 
 
