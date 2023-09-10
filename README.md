@@ -317,7 +317,10 @@ allows you to select specific rows and style them.
 ```
 tr:nth-child(3) {
     background-color: #b0d1e4;
-} ```
+}
+```
+<br>
+
 
 
 
