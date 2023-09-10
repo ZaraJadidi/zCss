@@ -237,6 +237,49 @@ cover: The image will completely cover the box, while maintaining its aspect rat
 
 contain: The image will fit inside the box completely.
 
+<br>
+
+###Styling Lists 
+
+<br>
+
+By default, unordered list items are marked with round bullets, while ordered lists are numbered.<br>
+
+ list-style-type : <br>
+ <br>
+ llows you to change the markers to circle, square, decimal, disc, lower-alpha, lower-roman, etc.<br>
+
+
+ list-style-position : <br>
+ <br>
+ specifies the position of the bullets: inside or outside.The default value is outside.
+
+
+list-style-image : <br>
+<br>
+can be used to specify an image to be used as the list item marker.However, this property does not allow you to control the position and size of the image.If you want to use an image as the marker, it's better to set the list-style-type to none and add a background image to the list items with the marker image, positioning it to the left.<br>
+
+list-style <br>
+<br>
+The list-style property is a shorthand for setting list-style-type, list-style-image and list-style-position, all in one declaration.<br>
+<br>
+
+### Styling Links 
+<br>
+A link is by default blue in color and underlined. We can style links with CSS properties (e.g., color, font-family, background, etc.). <br>
+
+In addition, links can be styled differently, depending on what state they are in. The following selectors are available:
+
+a:link - defines the style for normal unvisited links.
+
+a:visited - defines the style for visited links.
+
+a:active - a link becomes active once you click on it.
+
+a:hover - a link is hovered when the mouse is over it.
+
+These are called pseudo selectors.
+
 
 
 
