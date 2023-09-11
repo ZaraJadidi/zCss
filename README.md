@@ -433,10 +433,29 @@ main {
 ### Positioning
 <br>
 <br>
-####  Float :
+
+To fine-tune the position of elements on the page, the position property can be used. There are a number of different values the position property supports, changing the way the element is positioned.By default, all elements have the position:static, which is the normal flow.
+<br>
+<br>
+Static :<br>
+By default, all elements have the position:static.
+<br>
+Relative :<br>
+the element is positioned relative to its normal position.The properties top, right, bottom, and left can be used to specify how the element will be shifted.The content of relatively positioned elements can be moved and overlap other elements, but the reserved space for the element is still preserved in the normal flow.
+<br>
+Absolute : <br>
+An absolutely positioned element is removed from the normal flow of the page. This is useful, for example, to create popup boxes, control menus, panels, etc.
+<br>
+
+Fixed : <br>
+
+
+
+  Float :
 <br>
 <br>
 allows you to float an element inside a container. The supported values are left and right. You can float any other element with the same technique.
+
 
 
 
