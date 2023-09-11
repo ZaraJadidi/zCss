@@ -430,6 +430,17 @@ main {
 ```
 <br>
 
+### Positioning
+<br>
+<br>
+#### Float :
+<br>
+<br>
+allows you to float an element inside a container. The supported values are left and right. You can float any other element with the same technique.
+
+
+
+
 
 
 
