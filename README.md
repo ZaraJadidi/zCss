@@ -438,12 +438,15 @@ To fine-tune the position of elements on the page, the position property can be 
 <br>
 <br>
 Static :<br>
+<br>
 By default, all elements have the position:static.
 <br>
 Relative :<br>
+<br>
 the element is positioned relative to its normal position.The properties top, right, bottom, and left can be used to specify how the element will be shifted.The content of relatively positioned elements can be moved and overlap other elements, but the reserved space for the element is still preserved in the normal flow.
 <br>
 Absolute : <br>
+<br>
 An absolutely positioned element is removed from the normal flow of the page. This is useful, for example, to create popup boxes, control menus, panels, etc.
 <br>
 
