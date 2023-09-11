@@ -467,6 +467,14 @@ z-index :
 <br>
 <br>
 When elements are positioned outside the normal flow, they can overlap other elements. The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+<br>
+<br>
+<br>
+<br>
+An absolutely positioned element's position is relative to its 🔰first positioned parent element🔰. If the element doesn't have any positioned parent elements, then its position will be relative to the initial containing block, which is usually the viewport or the body element. The position of the first positioned parent element is determined by the closest ancestor element that has a position value of relative, absolute, fixed, or sticky.
+
+
+
 
 
 
