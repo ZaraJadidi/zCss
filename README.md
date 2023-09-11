@@ -453,8 +453,9 @@ An absolutely positioned element is removed from the normal flow of the page. Th
 <br>
 <br>
 Fixed : <br>
-
-
+<br>
+Fixed positioning makes the element stick to a part of the visible area, which means it always stays in the same place even if the page is scrolled.<br>
+<br>
 
   Float :
 <br>
