@@ -441,15 +441,17 @@ Static :<br>
 <br>
 By default, all elements have the position:static.
 <br>
+<br>
 Relative :<br>
 <br>
 the element is positioned relative to its normal position.The properties top, right, bottom, and left can be used to specify how the element will be shifted.The content of relatively positioned elements can be moved and overlap other elements, but the reserved space for the element is still preserved in the normal flow.
+<br>
 <br>
 Absolute : <br>
 <br>
 An absolutely positioned element is removed from the normal flow of the page. This is useful, for example, to create popup boxes, control menus, panels, etc.
 <br>
-
+<br>
 Fixed : <br>
 
 
