@@ -480,20 +480,25 @@ An absolutely positioned element's position is relative to its 🔰first positio
 <br>
 CSS transforms allow you to translate, rotate, scale, and skew elements.A transformation is an effect that lets an element change shape, size, and position.
 <br>
+<br>
 Rotate :
 <br>
 The rotate() method rotates an element clockwise or counter-clockwise, according to a given degree. Negative value will result in a counterclockwise rotation. 
 transform: rotate(- 45deg);
 <br>
+<br>
 transform-origin :
 <br>
 The transform-origin property allows you to change the position of transformed elements. 
+<br>
 <br>
 translate() :
 <br>
 The translate() method moves an element from its current position (according to the parameters given for the x-axis and the y-axis). __> transform: translate(100px, 200px);===>>>the div element is moved 100px to the right and 50px down.
 <br>
+<br>
 Positive values will push an element down and to the right of its default position, while negative values will pull an element up and to the left of its default position.An element can also be moved by setting the margins or by positioning the element, although translate is a better choice for animating elements.<br>
+<br>
 <br>
 
 
