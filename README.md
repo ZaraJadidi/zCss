@@ -358,6 +358,81 @@ input[type='button']:hover {
 ```
 <br>
 
+## Display 
+<br>
+<br>
+block : The block elements span the entire width of their parent and start from a new line. __>> p, article, sec tion <br>
+
+inline : The inline elements are placed inside block elements and act similar to their content, sitting on the same line.  __>> b, a <br>
+
+flex : It is used to arrange elements in rows and columns. It will make the articles inside it act as flex items and arrange in columns. By default, the flex items take equal space.We can control what proportion of space flex items take up compared to the other items using the flex property. <br>
+
+
+```
+.special {
+  flex: 2;
+} 
+```
+<br>
+make equal columns from the div elements, which are wrapped in a main element. <br>
+
+```
+main{
+display:flex;
+}
+div{
+flex:1;
+}
+```
+<br>
+ to make a real site layout:
+
+ HTML :
+ <br>
+ ```
+<header>My Header</header>
+<main>
+    <section class="content">Main Section</section>
+    <section class="side">Side Section</section>
+</main>
+<footer>My Footer</footer>
+```
+<br>
+ CSS :
+
+ ```
+header {
+    background-color: #77adda;
+    text-align: center;
+    padding: 20px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.content {
+    background-color: #2ca152;
+    color: white;
+    padding: 20px;
+    height: 200px;
+    flex: 3;
+}
+.side {
+    background-color: #e6e6a5;
+    padding: 20px;
+    flex: 1;
+}
+main {
+    display: flex;
+}
+```
+<br>
+
+
+
+
 
 
 
