@@ -461,6 +461,12 @@ Fixed positioning makes the element stick to a part of the visible area, which m
 <br>
 <br>
 allows you to float an element inside a container. The supported values are left and right. You can float any other element with the same technique.
+<br>
+<br>
+z-index :
+<br>
+<br>
+When elements are positioned outside the normal flow, they can overlap other elements. The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
 
 
 
