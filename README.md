@@ -595,6 +595,126 @@ We specify the transform to rotate the div by 90 degrees, and then declare the t
 <br>
 <br>
 <br>
+## CSS Animations 
+CSS transitions are generally best for simple from-to movements, while CSS animations are for more complex series of movements.With animations, you can change as many CSS properties as you want to, as many times you want to.An animation is defined using keyframes which hold the styles the element will have at certain times.
+<br>
+<br>
+Keyframes 
+<br>
+Keyframes are defined using the @keyframes keyword, followed by a name of the animation.
+
+```
+@keyframes colorchange {
+   [b]0%[/b]  {background-color: red;}
+   [b]50%[/b]  {background-color: yellow;}
+   [b]70%[/b]  {background-color: blue;}
+   [b]100%[/b] {background-color: green;}
+}
+```
+<br>
+The example animation will change the background color of an element three times: when the animation is 50% complete, 70% complete, and when the animation is 100% complete.colorchange is the name of the animation. You can choose any name for your animation.
+
+As an alternative to using percentages, you can use from and to keywords, where:
+
+from is a starting offset of 0%
+
+to is an ending offset of 100%.
+<br>
+To get an animation to work, you must bind the animation to an element.
+
+In the example below, the animation is set for the div element and lasts three seconds:
+
+```
+div {
+...
+   animation-name: colorchange;
+   animation-duration: 3s;
+}
+@keyframes colorchange {
+   0% {background-color: red;}
+   50% {background-color: green;}
+   100% {background-color: blue;}
+}
+```
+<br>
+<br>
+The animation-name property specifies the animation to be used for the element.
+
+The animation-duration property specifies the duration of the selected animation.
+<br>
+<br>
+
+There are a number of properties we can set for the animation.
+
+The animation-timing-function:
+<br>
+specifies the speed curve of an animation. It can have the following values:
+
+ease - specifies an animation with a slow start, then fast, then end slowly (this is default)
+
+linear - specifies an animation with the same speed from start to end
+
+ease-in - specifies an animation with a slow start
+
+ease-out - specifies an animation with a slow end
+
+ease-in-out - specifies an animation with a slow start and end.
+<br>
+<br>
+<br>
+animation-delay:
+<br>
+defines the delay before an animation starts.The animation-delay and animation-duration values can be defined in seconds (s) or milliseconds (ms).
+<br>
+<br>
+<br>
+animation-iteration-count:
+<br>
+determines the number of times an animation repeats. To make the animation repeat forever, just use the s value.
+<br>
+<br>
+<br>
+animation-direction:
+<br>
+indicates how the keyframe should be applied.
+
+The values can be set as:
+
+normal - the default value, which means it plays forward from 0 % to 100%. 
+
+reverse - plays the keyframe in an opposite direction from 100 % to 0%
+
+alternate -  the animation first runs forward, then backward, then forward.
+
+alternate-reverse - the animation first runs backward, then forward, then backward.
+<br>
+<br>
+<br>
+A single animation property can be used to achieve the same result as the above code:
+
+```
+div {
+   animation-name: colorchange;
+   animation-duration: 3s;
+   animation-timing-function: ease-in;
+   animation-delay: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: reverse;
+}
+```
+<br>
+It is the same with:
+<br>
+
+```
+div { 
+   animation: colorchange 3s ease-in 1s infinite reverse;
+}
+```
+<br>
+
+
+
 
 
 
