@@ -500,6 +500,72 @@ The translate() method moves an element from its current position (according to 
 Positive values will push an element down and to the right of its default position, while negative values will pull an element up and to the left of its default position.An element can also be moved by setting the margins or by positioning the element, although translate is a better choice for animating elements.<br>
 <br>
 <br>
+skew() :
+<br>
+The skew() method skews an element along the x-axis and the y-axis by the given angles.
+<br>
+<br>
+scale() :
+<br>
+The scale() method increases or decreases the size of an element, according to the parameters given for the width and height. 1 stands for the original size, 2 for twice the original size, and so on. 
+<br>
+<br>
+Multiple Transforms :
+<br>
+Multiple transforms can be used at once. Applying multiple transforms to an element is simple; just separate them using spaces.
+
+```
+transform: rotate(45deg) translate(100px);
+
+```
+<br>
+<br>
+<br>
+### CSS Transitions 
+<br>
+<br>
+<br>
+CSS transitions allow you to change from one property value to another over a given duration.Transition effects can be applied to a wide variety of CSS properties, including background-color, width, height, opacity, and many more.
+
+```
+div {
+   width: 50px;
+   height: 50px;
+   background: #32CD32;
+   transition: width 3s;
+}
+div:hover {
+   width: 250px;
+}
+```
+<br>
+In the example , the div element has width and height of 50px, with a green background. We specified a transition effect for the width property, with a duration of 3 seconds.If you hover over the div element, it will start to change its width.When the cursor is moused out of the element, it will gradually change back to its original style.
+<br>
+<br>
+<br>
+transition-timing-function :
+<br>
+<br>
+The transition-timing-function property specifies the speed curve of the transition effect.
+
+It can have the following values:
+<br>
+ease - the animation starts slowly, then accelerates quickly.
+
+ease-in - starts slowly, then accelerates, and stops abruptly.
+
+ease-out - starts quickly, but decelerates to a stop.
+
+ease-in-out - similar to ease, but with more subtle acceleration and deceleration.
+
+linear - constant speed throughout the animation; often best for color or opacity changes.
+
+
+
+
+
+
+
 
 
 
