@@ -521,7 +521,7 @@ transform: rotate(45deg) translate(100px);
 <br>
 <br>
 <br>
-## CSS Transitions 
+ CSS Transitions 
 <br>
 <br>
 <br>
