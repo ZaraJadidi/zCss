@@ -560,6 +560,44 @@ ease-out - starts quickly, but decelerates to a stop.
 ease-in-out - similar to ease, but with more subtle acceleration and deceleration.
 
 linear - constant speed throughout the animation; often best for color or opacity changes.
+<br>
+<br>
+If no timing function is specified, the default value is ease.
+<br>
+<br>
+<br>
+The transition timing function can also be specified in the transition property, like this:
+
+```
+transition: width 3s ease-in;
+```
+<br>
+<br>
+<br>
+We can add a transition on a transform property!Let's make our div rotate when the its hovered:
+
+```
+div {
+   ...
+   transition: transform 1s ease-in-out; 
+}
+div:hover {
+   transform: rotate(90deg);
+}
+```
+<br>
+We specify the transform to rotate the div by 90 degrees, and then declare the transition on our transform property.
+<br>
+<br>
+<br>
+ A transition can be applied on a transform.
+<br>
+<br>
+<br>
+<br>
+
+
+
 
 
 
