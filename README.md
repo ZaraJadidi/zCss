@@ -550,6 +550,7 @@ The transition-timing-function property specifies the speed curve of the transit
 
 It can have the following values:
 <br>
+<br>
 ease - the animation starts slowly, then accelerates quickly.
 
 ease-in - starts slowly, then accelerates, and stops abruptly.
